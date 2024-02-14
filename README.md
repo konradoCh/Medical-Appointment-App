@@ -1,10 +1,11 @@
-# Medical-Appointment-App
+# Medical Appointment App
+
 <i> An application for patients and doctors. 
 It allows for creating doctors' available dates and confirming them by  
 adding notes and describing illnesses.
 Moreover, the app permits to schedule appointment with specific 
 doctor, cancelling reservations and checking upcoming, canceled and completed appointments.
-along doctor's description.
+along doctor's description. </i>
 
 
 ## Table of Contents
@@ -16,31 +17,35 @@ along doctor's description.
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
 
-## Technologies Used
-- Spring Boot - version 1.0
-- Spring Boot Rest Api
-- Spring Data JPA
-- Bootstrap - version 2.0
-- Thymeleaf - version 3.0
-- Postgresql - version 3.0
-- Lombok
-- Logback
-- JUnit
-- Mockito
-- Hibernate
-- Flyway
-- Docker
+## General Information
+- Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+
+## Technologies Used
+- Spring Boot - version 3.2.1
+- SpringDoc OpenAPI Starter WebMVC UI - version 2.3.0
+- Bootstrap - version 5.2.2
+- Wiremock - version 3.0.1
+- Rest Assured - version 5.4.0
+- Swagger Annotations - version 1.6.13
+- Mapstruct - version 1.5.5.Final
+- Lombok, Logback, JUnit, Mockito, Flyway, Hibernate
+- Postgresql
+- OpenApi
+- Docker
 
 ## Features
 List the ready features here:
 * Security:
-  - login or creating new user
+    - login or creating new user
 * Patient:
     - Schedule appointment
     - Display available doctor specialization
@@ -55,8 +60,13 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![login](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/305a83f5-8a9f-4871-8601-9c1e4e04a1e0)
+![newUser](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f15175c1-4402-41fc-a5b0-59007fc50891)
+![home](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/a9aef4f1-132c-45eb-bad7-4865ec6460e0)
+![patientPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f6fe8f7e-55ad-4d07-b0f3-cd4216937bf1)
+![reservation](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/331dd141-3bef-4949-ad25-9ece5b45a1dd)
+![upcoming](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/26fb423b-3bb6-47a8-8d0b-0cfb24a9a6b0)
+![doctorPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/929d1491-a78d-4c21-b473-f627e57edb65)
 
 
 ## Setup
@@ -73,34 +83,16 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _complete_
 
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Improving the visual aspects of the application 
+- Patients' ability to add opinion after appointment 
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@konradoCh](chochorowski.konrad@gmail.com) 
