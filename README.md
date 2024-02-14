@@ -60,7 +60,7 @@ List the ready features here:
 
 
 ## Screenshots
-![](/screen shots/login.jpg | width=250)
+[![](/screen shots/login.jpg | width=250)](https://github.com/konradoCh/Medical-Appointment-App/blob/main/images/login.jpg | width = 200)
 
 
 
