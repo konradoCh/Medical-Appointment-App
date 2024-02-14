@@ -60,7 +60,7 @@ List the ready features here:
 
 
 ## Screenshots
-![login](screen shots/login.jpg | width=250)
+![](/screen shots/login.jpg | width=250)
 
 
 
