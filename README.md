@@ -60,13 +60,13 @@ List the ready features here:
 
 
 ## Screenshots
-![login](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/305a83f5-8a9f-4871-8601-9c1e4e04a1e0)
-![newUser](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f15175c1-4402-41fc-a5b0-59007fc50891)
-![home](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/a9aef4f1-132c-45eb-bad7-4865ec6460e0)
-![patientPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f6fe8f7e-55ad-4d07-b0f3-cd4216937bf1)
-![reservation](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/331dd141-3bef-4949-ad25-9ece5b45a1dd)
-![upcoming](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/26fb423b-3bb6-47a8-8d0b-0cfb24a9a6b0)
-![doctorPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/929d1491-a78d-4c21-b473-f627e57edb65)
+![login](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/305a83f5-8a9f-4871-8601-9c1e4e04a1e0 | width=100)
+![newUser](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f15175c1-4402-41fc-a5b0-59007fc50891 | width=100)
+![home](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/a9aef4f1-132c-45eb-bad7-4865ec6460e0 | width=100)
+![patientPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f6fe8f7e-55ad-4d07-b0f3-cd4216937bf1 | width=100)
+![reservation](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/331dd141-3bef-4949-ad25-9ece5b45a1dd | width=100)
+![upcoming](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/26fb423b-3bb6-47a8-8d0b-0cfb24a9a6b0 | width=100)
+![doctorPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/929d1491-a78d-4c21-b473-f627e57edb65 | width=100)
 
 
 ## Setup
