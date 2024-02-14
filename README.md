@@ -39,14 +39,15 @@ along doctor's description.
 
 ## Features
 List the ready features here:
-- Security (login and creating new user)
-  * Patient:
+* Security:
+  - login or creating new user
+* Patient:
     - Schedule appointment
     - Display available doctor specialization
     - Checking patients' upcoming, canceled and completed appointments
     - Checking description connected with completed appointment
     - Cancel reservation
-  * Doctor:
+* Doctor:
     - Adding and canceling term of appointment
     - Checking reserved appointment
     - Display patients' illness history
