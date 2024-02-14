@@ -60,7 +60,7 @@ List the ready features here:
 
 
 ## Screenshots
-![login](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/305a83f5-8a9f-4871-8601-9c1e4e04a1e0 | width=100)
+![login](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/305a83f5-8a9f-4871-8601-9c1e4e04a1e0 = 250x250)
 ![newUser](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f15175c1-4402-41fc-a5b0-59007fc50891 | width=100)
 ![home](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/a9aef4f1-132c-45eb-bad7-4865ec6460e0 | width=100)
 ![patientPortal](https://github.com/konradoCh/Medical-Appointment-App/assets/127674711/f6fe8f7e-55ad-4d07-b0f3-cd4216937bf1 | width=100)
