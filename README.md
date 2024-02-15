@@ -12,6 +12,7 @@ along doctor's description. </i>
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
+* [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -60,8 +61,12 @@ List the ready features here:
     - Adding notes and describing illnesses to the appointment
 
 
+## ERD Diagram
+<p align="center">
+<img src="./images/diagram.jpeg" width=900>
+</p>
+
 ## Screenshots
-![](https://raw.githubusercontent.com/konradoCh/Medical-Appointment-App/main/images/login.jpg)
 
 
 
