@@ -67,7 +67,8 @@ List the ready features here:
 </p>
 
 ## Screenshots
-
+<img src="./images/login.jpeg" width=600>
+<img src="./images/newUser.jpeg" width=600>
 
 
 ## Setup
