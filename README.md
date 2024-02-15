@@ -39,6 +39,7 @@ along doctor's description. </i>
 - Mapstruct - version 1.5.5.Final
 - Lombok, Logback, JUnit, Mockito, Flyway, Hibernate
 - Postgresql
+- Thymeleaf
 - OpenApi
 - Docker
 
