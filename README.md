@@ -67,8 +67,40 @@ List the ready features here:
 </p>
 
 ## Screenshots
-<img src="./images/login.jpeg" width=600>
-<img src="./images/newUser.jpeg" width=600>
+<table>
+  <tr>
+    <td align="center" >
+      <img src="./images/login.jpg" width="300" />
+      <p align="center">Login screen 2</p>
+    </td>
+    <td align="center">
+      <img src="./images/newUser.jpg" width="300" />
+      <p align="center">Create New User 2</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="./images/home.jpg" width="950" />
+      <p align="center">Home page</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="./images/patientPortal.jpg" width="950" />
+      <p align="center">Patient portal</p>
+    </td>
+  </tr>
+      <tr>
+    <td align="center" colspan="2">
+      <img src="./images/upcoming.jpg" width="950" />
+      <p align="center">Upcoming appointments</p>
+    </td>
+  </tr>
+</table>
+
+    
+
+
 
 
 ## Setup
