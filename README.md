@@ -55,7 +55,7 @@ List the ready features here:
 * Doctor:
     - Adding and canceling term of appointment
     - Checking reserved appointment
-    - Display patients' illness history
+    - Checking patients' illness history
     - Adding notes and describing illnesses to the appointment
 
 
