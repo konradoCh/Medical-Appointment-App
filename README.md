@@ -15,7 +15,7 @@ along doctor's description. _
 * [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
 * [Tests](#tests)
-* [Rest API](#restApi)
+* [Rest API](#rest-api)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
