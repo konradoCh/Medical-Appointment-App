@@ -12,9 +12,10 @@ along doctor's description. _
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Tests](#tests)
 * [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
+* [Tests](#tests)
+* [API](#api)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -59,15 +60,7 @@ List the ready features here:
     - Checking patients' illness history
     - Adding notes and describing illnesses to the appointment
 
-## Tests
-It has been prepared tests covering **more than 80 %** of the code lines.
-The following types of tests have been prepared:
-- Unit tests (Mockito)
-- @DataJpaTest
-- @WebMvcTest
-- @SpringBootTest
-- RestAssured
-- Wiremock
+
 
 ## ERD Diagram
 <p align="center">
@@ -99,6 +92,23 @@ The following types of tests have been prepared:
 | <p align="center"><img src="./images/upcoming.jpg" width="1000" /></p> |
 |---|
 | <p align="center"><b>Upcoming appointments</b></p> |
+
+## Tests
+It has been prepared tests covering **more than 80 %** of the code lines.
+
+The following types of tests have been prepared:
+- Unit tests (Mockito)
+- DataJpaTest
+- WebMvcTest
+- SpringBootTest
+- RestAssured
+- Wiremock
+
+## API
+There is a prepared REST API which includes GET, POST, PUT, and DELETE endpoints. 
+It allows users to manage available appointments for doctors.
+Moreover, it consuming external api - random-data-api.com
+
 
 
 ## Setup
