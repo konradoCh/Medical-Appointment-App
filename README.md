@@ -1,15 +1,10 @@
 # Medical Appointment App
 
-_An application for patients and doctors. 
-It allows for creating doctors' available dates and confirming them by  
-adding notes and describing illnesses.
-Moreover, the app permits to schedule appointment with specific 
-doctor, cancelling reservations and checking upcoming, canceled and completed appointments.
-along doctor's description. _
-
+_An application for patients and doctors.   
+It allows for creating doctors' available dates and confirming them by adding notes and describing illnesses.  
+Moreover, the app permits to schedule appointment, cancelling reservations and checking upcoming, canceled and completed appointments._
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [ERD Diagram](#erd-diagram)
@@ -22,14 +17,6 @@ along doctor's description. _
 * [Room for Improvement](#room-for-improvement)
 * [Contact](#contact)
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
 ## Technologies Used
 - Spring Boot - version 3.2.1
 - SpringDoc OpenAPI Starter WebMVC UI - version 2.3.0
@@ -41,11 +28,9 @@ along doctor's description. _
 - Lombok, Logback, JUnit, Mockito, Flyway, Hibernate
 - Postgresql
 - Thymeleaf
-- OpenApi
 - Docker
 
 ## Features
-List the ready features here:
 * Security:
     - login or creating new user
 * Patient:
@@ -59,8 +44,6 @@ List the ready features here:
     - Checking reserved appointment
     - Checking patients' illness history
     - Adding notes and describing illnesses to the appointment
-
-
 
 ## ERD Diagram
 <p align="center">
@@ -108,7 +91,7 @@ The following types of tests have been prepared:
 There is a prepared REST API which includes GET, POST, PUT, and DELETE endpoints.  
 It allows users to manage available appointments for doctors.  
 Moreover, it consumes  external api - random-data-api.com
-<p align="center"><img src="./images/rest.jpg" width="400" /></p>
+<p align="center"><img src="./images/rest.jpg" width="500" /></p>
 
 
 ## Setup
@@ -123,10 +106,8 @@ Provide various use cases and code examples here.
 
 `write-your-code-here`
 
-
 ## Project Status
 Project is: _complete_
-
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
