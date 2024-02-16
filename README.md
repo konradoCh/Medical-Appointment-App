@@ -15,7 +15,7 @@ along doctor's description. _
 * [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
 * [Tests](#tests)
-* [API](#api)
+* [Rest API](#restApi)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -69,27 +69,27 @@ List the ready features here:
 
 ## Screenshots
 
-| <p align="center"><img src="./images/login.jpg" width="400" /></p> |
+| <p align="center"><img src="./images/login.jpg" width="300" /></p> |
 |---|
 | <p align="center"><b>Login screen</b></p> |
 
 
-| <p align="center"><img src="./images/newUser.jpg" width="400" /></p> |
+| <p align="center"><img src="./images/newUser.jpg" width="350" /></p> |
 |---|
 | <p align="center"><b>Create New User</b></p> |
 
 
-| <p align="center"><img src="./images/home.jpg" width="1000" /></p> |
+| <p align="center"><img src="./images/home.jpg" width="900" /></p> |
 |---|
 | <p align="center"><b>Home page</b></p> |
 
 
-| <p align="center"><img src="./images/patientPortal.jpg" width="1000" /></p> |
+| <p align="center"><img src="./images/patientPortal.jpg" width="900" /></p> |
 |---|
 | <p align="center"><b>Patient portal</b></p> |
 
 
-| <p align="center"><img src="./images/upcoming.jpg" width="1000" /></p> |
+| <p align="center"><img src="./images/upcoming.jpg" width="900" /></p> |
 |---|
 | <p align="center"><b>Upcoming appointments</b></p> |
 
@@ -104,11 +104,11 @@ The following types of tests have been prepared:
 - RestAssured
 - Wiremock
 
-## API
-There is a prepared REST API which includes GET, POST, PUT, and DELETE endpoints. 
-It allows users to manage available appointments for doctors.
-Moreover, it consuming external api - random-data-api.com
-
+## Rest API
+There is a prepared REST API which includes GET, POST, PUT, and DELETE endpoints.  
+It allows users to manage available appointments for doctors.  
+Moreover, it consumes  external api - random-data-api.com
+<p align="center"><img src="./images/rest.jpg" width="400" /></p>
 
 
 ## Setup
