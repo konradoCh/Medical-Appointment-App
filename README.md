@@ -1,17 +1,18 @@
 # Medical Appointment App
 
-<i> An application for patients and doctors. 
+_An application for patients and doctors. 
 It allows for creating doctors' available dates and confirming them by  
 adding notes and describing illnesses.
 Moreover, the app permits to schedule appointment with specific 
 doctor, cancelling reservations and checking upcoming, canceled and completed appointments.
-along doctor's description. </i>
+along doctor's description. _
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
+* [Tests](#tests)
 * [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -19,8 +20,6 @@ along doctor's description. </i>
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Contact](#contact)
-<!-- * [License](#license) -->
-
 
 ## General Information
 - Provide general information about your project here.
@@ -60,6 +59,15 @@ List the ready features here:
     - Checking patients' illness history
     - Adding notes and describing illnesses to the appointment
 
+## Tests
+It has been prepared tests covering **more than 80 %** of the code lines.
+The following types of tests have been prepared:
+- Unit tests (Mockito)
+- @DataJpaTest
+- @WebMvcTest
+- @SpringBootTest
+- RestAssured
+- Wiremock
 
 ## ERD Diagram
 <p align="center">
@@ -91,12 +99,6 @@ List the ready features here:
 | <p align="center"><img src="./images/upcoming.jpg" width="1000" /></p> |
 |---|
 | <p align="center"><b>Upcoming appointments</b></p> |
-
-
-
-    
-
-
 
 
 ## Setup
