@@ -63,40 +63,36 @@ List the ready features here:
 
 ## ERD Diagram
 <p align="center">
-<img src="./images/diagram.jpeg" width=900>
+<img src="./images/diagram.jpeg" width=1000>
 </p>
 
 ## Screenshots
-<table>
-  <tr>
-    <td align="center" >
-      <img src="./images/login.jpg" width="300" />
-      <p align="center">Login screen 2</p>
-    </td>
-    <td align="center">
-      <img src="./images/newUser.jpg" width="300" />
-      <p align="center">Create New User 2</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="./images/home.jpg" width="950" />
-      <p align="center">Home page</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="./images/patientPortal.jpg" width="950" />
-      <p align="center">Patient portal</p>
-    </td>
-  </tr>
-      <tr>
-    <td align="center" colspan="2">
-      <img src="./images/upcoming.jpg" width="950" />
-      <p align="center">Upcoming appointments</p>
-    </td>
-  </tr>
-</table>
+
+| <p align="center"><img src="./images/login.jpg" width="400" /></p> |
+|---|
+| <p align="center"><b>Login screen</b></p> |
+
+
+| <p align="center"><img src="./images/newUser.jpg" width="400" /></p> |
+|---|
+| <p align="center"><b>Create New User</b></p> |
+
+
+| <p align="center"><img src="./images/home.jpg" width="1000" /></p> |
+|---|
+| <p align="center"><b>Home page</b></p> |
+
+
+| <p align="center"><img src="./images/patientPortal.jpg" width="1000" /></p> |
+|---|
+| <p align="center"><b>Patient portal</b></p> |
+
+
+| <p align="center"><img src="./images/upcoming.jpg" width="1000" /></p> |
+|---|
+| <p align="center"><b>Upcoming appointments</b></p> |
+
+
 
     
 
