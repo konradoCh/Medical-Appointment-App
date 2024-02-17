@@ -12,7 +12,6 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 * [Tests](#tests)
 * [Rest API](#rest-api)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Contact](#contact)
@@ -103,12 +102,6 @@ The application can be run by Docker Compose.
 4. Enter command docker compose up -d
 5. The application will be available on `http://localhost:8080/medical-appointment/`
 
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
 
 ## Project Status
 Project is: _complete_
