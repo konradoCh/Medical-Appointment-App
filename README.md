@@ -95,9 +95,13 @@ Moreover, it consumes  external api - random-data-api.com
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+The application can be run by Docker Compose.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+1. Make sure you have installed Docker and Docker Compose
+2. Clone repository by command _git clone https://github.com/konradoCh/Medical-Appointment-App.git_
+3. Using terminal go to cloned repository folder
+4. Enter command docker compose up -d
+5. The application will be available on _http://localhost:8080/medical-appointment/_
 
 
 ## Usage
