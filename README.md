@@ -99,7 +99,7 @@ To run the application, use Docker Compose.
 1. Make sure you have Docker and Docker Compose installed
 2. Clone the repository using command: `git clone https://github.com/konradoCh/Medical-Appointment-App.git`
 3. Navigate to the cloned repository folder using the terminal
-4. Enter the `command docker compose up -d`
+4. Enter the command `docker compose up -d`
 5. The application will be available at `http://localhost:8080/medical-appointment/`
 
 
