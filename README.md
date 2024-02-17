@@ -107,7 +107,6 @@ The application can be run by Docker Compose.
 Project is: _complete_
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
 - Improving the visual aspects of the application 
