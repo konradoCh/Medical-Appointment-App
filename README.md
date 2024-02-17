@@ -94,13 +94,13 @@ Moreover, it consumes  external api - random-data-api.com
 
 
 ## Setup
-The application can be run by Docker Compose.
+To run the application, use Docker Compose.
 
-1. Make sure you have installed Docker and Docker Compose
-2. Clone repository by command: `git clone https://github.com/konradoCh/Medical-Appointment-App.git`
-3. Using terminal go to cloned repository folder
-4. Enter command docker compose up -d
-5. The application will be available on `http://localhost:8080/medical-appointment/`
+1. Make sure you have Docker and Docker Compose installed
+2. Clone the repository using command: `git clone https://github.com/konradoCh/Medical-Appointment-App.git`
+3. Navigate to the cloned repository folder using the terminal
+4. Enter the `command docker compose up -d`
+5. The application will be available at `http://localhost:8080/medical-appointment/`
 
 
 ## Project Status
