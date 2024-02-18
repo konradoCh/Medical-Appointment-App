@@ -41,7 +41,7 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 * Doctor:
     - Adding and canceling term of appointment
     - Checking reserved appointment
-    - Checking patients' illness history
+    - Checking patients' illnesses history
     - Adding notes and describing illnesses to the appointment
 
 ## ERD Diagram
@@ -74,6 +74,10 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 | <p align="center"><img src="./images/upcoming.jpg" width="900" /></p> |
 |---|
 | <p align="center"><b>Upcoming appointments</b></p> |
+
+| <p align="center"><img src="./images/doctorPortal.jpg" width="900" /></p> |
+|---|
+| <p align="center"><b>Doctor portal</b></p> |
 
 ## Tests
 It has been prepared tests covering **more than 80 %** of the code lines.
