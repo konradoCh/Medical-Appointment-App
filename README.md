@@ -110,6 +110,7 @@ To run the application, use Docker Compose.
 3. Navigate to the cloned repository folder using the terminal
 4. Enter the command `docker compose up -d`
 5. The application will be available at `http://localhost:8080/medical-appointment/`
+6. To stop the application enter the command `docker compose down`
 
 
 ## Project Status
