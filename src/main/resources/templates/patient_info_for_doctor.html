@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          crossorigin="anonymous">
+    <title>Patient's info!</title>
+</head>
+
+<body>
+<div class="container">
+    <h1 align="center" style="background-color: lightblue">Patient info</h1>
+    <p th:text="${patientDTO.name}"></p>
+    <p th:text="${patientDTO.surname}"></p>
+    <p th:text="${patientDTO.pesel}"></p>
+
+    <div class="container" th:if="${#lists.size(appointmentDTO) > 0}">
+        <table class="table" >
+            <thead class="table-striped">
+            <tr>
+
+                <th style="text-align: center">Date</th>
+                <th style="text-align: center">Illness</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr style="text-align: center" th:each="appointment : ${appointmentDTO}">
+                <td th:text="${appointment.dateTime}"></td>
+                <td th:text="${appointment.illness}"></td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+<div class="row mt-3 d-flex justify-content-center">
+    <div class="col-sm d-flex justify-content-center">
+        <a th:href="@{/doctor/{medicalLicence}(medicalLicence=${medicalLicence})}"
+           class="btn btn-secondary" role="button">Go back to the previous page</a>
+    </div>
+</div>
+
+</body>
+</html>
+
