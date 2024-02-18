@@ -82,7 +82,7 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 
 ## Security
 - Authentication via Form-Based Authentication
-- Password are stored using BCrypt
+- Passwords are stored using BCrypt
 
 ## Tests
 It has been prepared tests covering **more than 80 %** of the code lines.
