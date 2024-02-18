@@ -9,6 +9,7 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 * [Features](#features)
 * [ERD Diagram](#erd-diagram)
 * [Screenshots](#screenshots)
+* [Security](#security)
 * [Tests](#tests)
 * [Rest API](#rest-api)
 * [Setup](#setup)
@@ -78,6 +79,10 @@ Moreover, the app permits to schedule appointment, cancelling reservations and c
 | <p align="center"><img src="./images/doctorPortal.jpg" width="900" /></p> |
 |---|
 | <p align="center"><b>Doctor portal</b></p> |
+
+## Security
+- Authentication via Form-Based Authentication
+- Password are stored using BCrypt
 
 ## Tests
 It has been prepared tests covering **more than 80 %** of the code lines.
