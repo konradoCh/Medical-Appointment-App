@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.api.controller.DoctorControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:06" hostname="DESKTOP-A9LUF2G" time="1.006">
+  <properties/>
+  <testcase name="addedAppointmentPageWorksCorrectly()" classname="org.medical_appointment.api.controller.DoctorControllerTest" time="0.383"/>
+  <testcase name="doctorHomePageWorksCorrectly()" classname="org.medical_appointment.api.controller.DoctorControllerTest" time="0.502"/>
+  <testcase name="cancelAvailableDatePageWorksCorrectly()" classname="org.medical_appointment.api.controller.DoctorControllerTest" time="0.011"/>
+  <testcase name="addDetailsOfAppointmentWorksCorrectly()" classname="org.medical_appointment.api.controller.DoctorControllerTest" time="0.017"/>
+  <testcase name="getPatientInfoPageWorksCorrectly()" classname="org.medical_appointment.api.controller.DoctorControllerTest" time="0.07"/>
+  <system-out><![CDATA[INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.medical_appointment.api.controller.DoctorControllerTest]: DoctorControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.medical_appointment.MedicalAppointmentApplication for test class org.medical_appointment.api.controller.DoctorControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+INFO  o.m.a.c.DoctorControllerTest - Starting DoctorControllerTest using Java 18.0.1.1 with PID 15140 (started by choch in C:\Users\choch\Desktop\Medical-Appointment-App)
+INFO  o.m.a.c.DoctorControllerTest - No active profile set, falling back to 1 default profile: "default"
+WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 53436fa4-dcfb-4f5d-97e7-123b5874f27c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b5d7233, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6be2b567, org.springframework.security.web.context.SecurityContextHolderFilter@5d202dc4, org.springframework.security.web.header.HeaderWriterFilter@61b76a7d, org.springframework.web.filter.CorsFilter@169d1f92, org.springframework.security.web.csrf.CsrfFilter@2eea4441, org.springframework.security.web.authentication.logout.LogoutFilter@44a98a23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28b68067, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fdff56b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7fcbc336, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@32fd5bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14c18a6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6aa792, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fe7fa16, org.springframework.security.web.access.ExceptionTranslationFilter@64186f60, org.springframework.security.web.access.intercept.AuthorizationFilter@7d8d671b]
+INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+INFO  o.m.a.c.DoctorControllerTest - Started DoctorControllerTest in 6.376 seconds (process running for 8.899)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

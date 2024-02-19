@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.infrastructure.database.repository.PatientRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:12" hostname="DESKTOP-A9LUF2G" time="0.068">
+  <properties/>
+  <testcase name="findByPeselWhenExists()" classname="org.medical_appointment.infrastructure.database.repository.PatientRepositoryTest" time="0.066"/>
+  <testcase name="findByPeselWhenNotExists()" classname="org.medical_appointment.infrastructure.database.repository.PatientRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

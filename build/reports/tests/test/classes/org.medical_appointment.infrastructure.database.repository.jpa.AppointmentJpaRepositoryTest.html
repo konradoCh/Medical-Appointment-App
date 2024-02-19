@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AppointmentJpaRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AppointmentJpaRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.medical_appointment.infrastructure.database.repository.jpa.html">org.medical_appointment.infrastructure.database.repository.jpa</a> &gt; AppointmentJpaRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.375s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findAllCompletedAppointmentsForPatient()</td>
+<td class="success">0.051s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAppointmentByDoctorAvailableId()</td>
+<td class="success">0.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAppointmentById()</td>
+<td class="success">0.267s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.medical_appointment.infrastructure.database.repository.jpa.AppointmentJpaRepositoryTest]: AppointmentJpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.medical_appointment.MedicalAppointmentApplication for test class org.medical_appointment.infrastructure.database.repository.jpa.AppointmentJpaRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+INFO  o.m.i.d.r.j.AppointmentJpaRepositoryTest - Starting AppointmentJpaRepositoryTest using Java 18.0.1.1 with PID 15140 (started by choch in C:\Users\choch\Desktop\Medical-Appointment-App)
+INFO  o.m.i.d.r.j.AppointmentJpaRepositoryTest - No active profile set, falling back to 1 default profile: &quot;default&quot;
+INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 6 JPA repository interfaces.
+INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.6
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7877 MB
+INFO  tc.testcontainers/ryuk:0.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+INFO  tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 is starting: 15ab040faaf5c73f59a31574209bd69761bb703cc9de99a268313882475b5e43
+INFO  tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 started in PT1.1462141S
+INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+INFO  o.testcontainers.DockerClientFactory - Checking the system...
+INFO  o.testcontainers.DockerClientFactory - âś”ď¸Ž Docker server version should be at least 1.6.0
+INFO  tc.postgres:15.0 - Creating container for image: postgres:15.0
+INFO  tc.postgres:15.0 - Container postgres:15.0 is starting: cb96c49bfb67a7c8bcc8ae419933c548ea66752afab24719e9e50139d3eb4d91
+INFO  tc.postgres:15.0 - Container postgres:15.0 started in PT3.313639S
+INFO  tc.postgres:15.0 - Container is started (JDBC URL: jdbc:postgresql://localhost:62014/test?loggerLevel=OFF)
+INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a99f9e5
+INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+INFO  o.f.c.i.license.VersionPrinter - 
+INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:62014/test (PostgreSQL 15.0)
+INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table &quot;public&quot;.&quot;flyway_schema_history&quot; does not exist yet
+INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.040s)
+INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table &quot;public&quot;.&quot;flyway_schema_history&quot; ...
+INFO  o.f.core.internal.command.DbMigrate - Current version of schema &quot;public&quot;: &lt;&lt; Empty Schema &gt;&gt;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.1 - init patient&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.2 - init doctor&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.3 - init doctor available&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.4 - init appointment&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;2.1 - init medical appointment data&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;3.0 - security tabels&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;3.1 - init users&quot;
+INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema &quot;public&quot;, now at version v3.1 (execution time 00:00.110s)
+INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+WARN  org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): org.medical_appointment.infrastructure.database.entity.UserRoleEntityId
+WARN  org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): org.medical_appointment.infrastructure.database.entity.UserRoleEntityId
+INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+INFO  o.m.i.d.r.j.AppointmentJpaRepositoryTest - Started AppointmentJpaRepositoryTest in 9.931 seconds (process running for 25.137)
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into patient (email,name,pesel,phone,surname,user_id) values (?,?,?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: insert into doctor_available (completed,date_time,deleted,doctor_id,reserved) values (?,?,?,?,?)
+Hibernate: select ae1_0.appointment_id,ae1_0.appointment_number,ae1_0.canceled,ae1_0.completed,ae1_0.description,da1_0.doctor_available_id,da1_0.completed,da1_0.date_time,da1_0.deleted,d1_0.doctor_id,d1_0.medical_licence,d1_0.name,d1_0.specialization,d1_0.surname,u1_0.user_id,u1_0.active,u1_0.email,u1_0.password,r1_0.user_id,r1_1.role_id,r1_1.role,u1_0.user_name,da1_0.reserved,ae1_0.illness,p1_0.patient_id,p1_0.email,p1_0.name,p1_0.pesel,p1_0.phone,p1_0.surname,u2_0.user_id,u2_0.active,u2_0.email,u2_0.password,u2_0.user_name from appointment ae1_0 left join doctor_available da1_0 on da1_0.doctor_available_id=ae1_0.doctor_available_id left join doctor d1_0 on d1_0.doctor_id=da1_0.doctor_id left join medical_appointment_user u1_0 on u1_0.user_id=d1_0.user_id left join medical_appointment_user_role r1_0 on u1_0.user_id=r1_0.user_id left join medical_appointment_role r1_1 on r1_1.role_id=r1_0.role_id left join patient p1_0 on p1_0.patient_id=ae1_0.patient_id left join medical_appointment_user u2_0 on u2_0.user_id=p1_0.user_id where ae1_0.appointment_id=?
+Hibernate: insert into appointment (appointment_number,canceled,completed,description,doctor_available_id,illness,patient_id) values (?,?,?,?,?,?,?)
+Hibernate: select pe1_0.patient_id,pe1_0.email,pe1_0.name,pe1_0.pesel,pe1_0.phone,pe1_0.surname,pe1_0.user_id from patient pe1_0 where pe1_0.pesel=?
+Hibernate: select de1_0.doctor_id,de1_0.medical_licence,de1_0.name,de1_0.specialization,de1_0.surname,de1_0.user_id from doctor de1_0 where de1_0.medical_licence=?
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into patient (email,name,pesel,phone,surname,user_id) values (?,?,?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: insert into doctor_available (completed,date_time,deleted,doctor_id,reserved) values (?,?,?,?,?)
+Hibernate: select ae1_0.appointment_id,ae1_0.appointment_number,ae1_0.canceled,ae1_0.completed,ae1_0.description,da1_0.doctor_available_id,da1_0.completed,da1_0.date_time,da1_0.deleted,d1_0.doctor_id,d1_0.medical_licence,d1_0.name,d1_0.specialization,d1_0.surname,u1_0.user_id,u1_0.active,u1_0.email,u1_0.password,r1_0.user_id,r1_1.role_id,r1_1.role,u1_0.user_name,da1_0.reserved,ae1_0.illness,p1_0.patient_id,p1_0.email,p1_0.name,p1_0.pesel,p1_0.phone,p1_0.surname,u2_0.user_id,u2_0.active,u2_0.email,u2_0.password,u2_0.user_name from appointment ae1_0 left join doctor_available da1_0 on da1_0.doctor_available_id=ae1_0.doctor_available_id left join doctor d1_0 on d1_0.doctor_id=da1_0.doctor_id left join medical_appointment_user u1_0 on u1_0.user_id=d1_0.user_id left join medical_appointment_user_role r1_0 on u1_0.user_id=r1_0.user_id left join medical_appointment_role r1_1 on r1_1.role_id=r1_0.role_id left join patient p1_0 on p1_0.patient_id=ae1_0.patient_id left join medical_appointment_user u2_0 on u2_0.user_id=p1_0.user_id where ae1_0.appointment_id=?
+Hibernate: insert into appointment (appointment_number,canceled,completed,description,doctor_available_id,illness,patient_id) values (?,?,?,?,?,?,?)
+Hibernate: select ae1_0.appointment_id,ae1_0.appointment_number,ae1_0.canceled,ae1_0.completed,ae1_0.description,da1_0.doctor_available_id,da1_0.completed,da1_0.date_time,da1_0.deleted,da1_0.doctor_id,da1_0.reserved,ae1_0.illness,ae1_0.patient_id from appointment ae1_0 left join doctor_available da1_0 on da1_0.doctor_available_id=ae1_0.doctor_available_id where da1_0.doctor_available_id=?
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into patient (email,name,pesel,phone,surname,user_id) values (?,?,?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: insert into doctor_available (completed,date_time,deleted,doctor_id,reserved) values (?,?,?,?,?)
+Hibernate: select ae1_0.appointment_id,ae1_0.appointment_number,ae1_0.canceled,ae1_0.completed,ae1_0.description,da1_0.doctor_available_id,da1_0.completed,da1_0.date_time,da1_0.deleted,d1_0.doctor_id,d1_0.medical_licence,d1_0.name,d1_0.specialization,d1_0.surname,u1_0.user_id,u1_0.active,u1_0.email,u1_0.password,r1_0.user_id,r1_1.role_id,r1_1.role,u1_0.user_name,da1_0.reserved,ae1_0.illness,p1_0.patient_id,p1_0.email,p1_0.name,p1_0.pesel,p1_0.phone,p1_0.surname,u2_0.user_id,u2_0.active,u2_0.email,u2_0.password,u2_0.user_name from appointment ae1_0 left join doctor_available da1_0 on da1_0.doctor_available_id=ae1_0.doctor_available_id left join doctor d1_0 on d1_0.doctor_id=da1_0.doctor_id left join medical_appointment_user u1_0 on u1_0.user_id=d1_0.user_id left join medical_appointment_user_role r1_0 on u1_0.user_id=r1_0.user_id left join medical_appointment_role r1_1 on r1_1.role_id=r1_0.role_id left join patient p1_0 on p1_0.patient_id=ae1_0.patient_id left join medical_appointment_user u2_0 on u2_0.user_id=p1_0.user_id where ae1_0.appointment_id=?
+Hibernate: insert into appointment (appointment_number,canceled,completed,description,doctor_available_id,illness,patient_id) values (?,?,?,?,?,?,?)
+Hibernate: select ae1_0.appointment_id,ae1_0.appointment_number,ae1_0.canceled,ae1_0.completed,ae1_0.description,ae1_0.doctor_available_id,ae1_0.illness,ae1_0.patient_id from appointment ae1_0 where ae1_0.patient_id=? and ae1_0.completed=true
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at 19 lut 2024, 19:38:34</p>
+</div>
+</div>
+</body>
+</html>

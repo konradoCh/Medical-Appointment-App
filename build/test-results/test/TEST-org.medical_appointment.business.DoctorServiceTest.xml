@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.business.DoctorServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:11" hostname="DESKTOP-A9LUF2G" time="0.076">
+  <properties/>
+  <testcase name="availableSpecializationsWorksCorrectly()" classname="org.medical_appointment.business.DoctorServiceTest" time="0.069"/>
+  <testcase name="findDoctorByMedicalLicenceWhenDoctorExists()" classname="org.medical_appointment.business.DoctorServiceTest" time="0.002"/>
+  <testcase name="findPatientByMedicalLicenceWhenDoctorNotExists()" classname="org.medical_appointment.business.DoctorServiceTest" time="0.003"/>
+  <system-out><![CDATA[INFO  o.m.business.DoctorService - Available specializations: [1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

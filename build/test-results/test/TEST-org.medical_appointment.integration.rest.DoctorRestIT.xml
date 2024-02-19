@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.integration.rest.DoctorRestIT" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:30" hostname="DESKTOP-A9LUF2G" time="2.068">
+  <properties/>
+  <testcase name="contextLoaded()" classname="org.medical_appointment.integration.rest.DoctorRestIT" time="0.024"/>
+  <testcase name="thatAvailableAppointmentsListCanBeDisplayedCorrectlyAndAddingWorksCorrectly()" classname="org.medical_appointment.integration.rest.DoctorRestIT" time="1.602"/>
+  <testcase name="thatDeletingDoctorAvailableWorksCorrectly()" classname="org.medical_appointment.integration.rest.DoctorRestIT" time="0.216"/>
+  <testcase name="thatUpdatingDoctorAvailableWorksCorrectly()" classname="org.medical_appointment.integration.rest.DoctorRestIT" time="0.223"/>
+  <system-out><![CDATA[INFO  o.m.business.UserService - Registered a new user [UserName]
+INFO  o.m.business.DoctorService - Created new Doctor [Jan] [Kowalski], medical licence: [5207099]
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [0]
+DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+INFO  o.m.business.DoctorAvailableService - Saved new doctor available on date: [2024-01-01T15:00Z] by doctor [Jan] [Kowalski]
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [1]
+INFO  o.m.business.UserService - Registered a new user [UserName]
+INFO  o.m.business.DoctorService - Created new Doctor [Jan] [Kowalski], medical licence: [5207099]
+DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+INFO  o.m.business.DoctorAvailableService - Saved new doctor available on date: [2024-01-01T15:00Z] by doctor [Jan] [Kowalski]
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [1]
+DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/doctor/2
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [DELETE /api/doctor/2] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/doctor/2
+INFO  o.m.business.DoctorAvailableService - Deleted available appointment.
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [0]
+INFO  o.m.business.UserService - Registered a new user [UserName]
+INFO  o.m.business.DoctorService - Created new Doctor [Jan] [Kowalski], medical licence: [5207099]
+DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/doctor?date=01-01-2024&time=15%3A00&medicalLicence=5207099
+INFO  o.m.business.DoctorAvailableService - Saved new doctor available on date: [2024-01-01T15:00Z] by doctor [Jan] [Kowalski]
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [1]
+DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/doctor/3?date=11-01-2025&time=20%3A30&medicalLicence=5207099
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [PUT /api/doctor/3?date=11-01-2025&time=20%3A30&medicalLicence=5207099] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/doctor/3?date=11-01-2025&time=20%3A30&medicalLicence=5207099
+INFO  o.m.business.DoctorAvailableService - Saved new doctor available on date: [2025-01-11T20:30Z] by doctor [Jan] [Kowalski]
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/doctor/5207099/availableAppointments
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /api/doctor/5207099/availableAppointments] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/doctor/5207099/availableAppointments
+INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [1]
+]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/choch/.gradle/caches/modules-2/files-2.1/org.wiremock/wiremock-standalone/3.0.1/6b54f1bb43eb24530490348d26c1c3d5454af873/wiremock-standalone-3.0.1.jar!/wiremock/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+]]></system-err>
+</testsuite>

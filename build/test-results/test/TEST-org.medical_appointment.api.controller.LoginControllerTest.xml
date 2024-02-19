@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.api.controller.LoginControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:08" hostname="DESKTOP-A9LUF2G" time="0.06">
+  <properties/>
+  <testcase name="homeWorksCorrectly()" classname="org.medical_appointment.api.controller.LoginControllerTest" time="0.06"/>
+  <system-out><![CDATA[INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.medical_appointment.api.controller.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.medical_appointment.MedicalAppointmentApplication for test class org.medical_appointment.api.controller.LoginControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+INFO  o.m.a.controller.LoginControllerTest - Starting LoginControllerTest using Java 18.0.1.1 with PID 15140 (started by choch in C:\Users\choch\Desktop\Medical-Appointment-App)
+INFO  o.m.a.controller.LoginControllerTest - No active profile set, falling back to 1 default profile: "default"
+WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 214bc595-5430-4451-a15c-835cc2c09166
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24ffe853, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a904e64, org.springframework.security.web.context.SecurityContextHolderFilter@183e64a8, org.springframework.security.web.header.HeaderWriterFilter@70736b19, org.springframework.web.filter.CorsFilter@22d23c27, org.springframework.security.web.csrf.CsrfFilter@50f65fe0, org.springframework.security.web.authentication.logout.LogoutFilter@18bab95b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1aa64998, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2044f708, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f1b8770, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@571b4bf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a553110, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b8466c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74fd5fb0, org.springframework.security.web.access.ExceptionTranslationFilter@18a538a0, org.springframework.security.web.access.intercept.AuthorizationFilter@771b2b5b]
+INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+INFO  o.m.a.controller.LoginControllerTest - Started LoginControllerTest in 0.968 seconds (process running for 11.02)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

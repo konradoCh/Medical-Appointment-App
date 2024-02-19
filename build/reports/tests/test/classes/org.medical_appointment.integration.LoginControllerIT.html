@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - LoginControllerIT</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>LoginControllerIT</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.medical_appointment.integration.html">org.medical_appointment.integration</a> &gt; LoginControllerIT</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.273s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">homePageWorksCorrectly()</td>
+<td class="success">0.273s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+INFO  o.m.integration.LoginControllerIT - Starting LoginControllerIT using Java 18.0.1.1 with PID 15140 (started by choch in C:\Users\choch\Desktop\Medical-Appointment-App)
+INFO  o.m.integration.LoginControllerIT - The following 1 profile is active: &quot;test&quot;
+INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler [&quot;http-nio-auto-1&quot;]
+INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+INFO  o.a.c.c.C.[.[.[/medical-appointment] - Initializing Spring embedded WebApplicationContext
+INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+INFO  tc.postgres:15.0 - Creating container for image: postgres:15.0
+INFO  tc.postgres:15.0 - Container postgres:15.0 is starting: 82deca9f33b25a94805520693d9999d0dac5b12432aa471621aa3b689984929d
+INFO  tc.postgres:15.0 - Container postgres:15.0 started in PT2.6419528S
+INFO  tc.postgres:15.0 - Container is started (JDBC URL: jdbc:postgresql://localhost:62025/test?loggerLevel=OFF)
+INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@bd9e37b
+INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:62025/test (PostgreSQL 15.0)
+INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table &quot;public&quot;.&quot;flyway_schema_history&quot; does not exist yet
+INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.011s)
+INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table &quot;public&quot;.&quot;flyway_schema_history&quot; ...
+INFO  o.f.core.internal.command.DbMigrate - Current version of schema &quot;public&quot;: &lt;&lt; Empty Schema &gt;&gt;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.1 - init patient&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.2 - init doctor&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.3 - init doctor available&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;1.4 - init appointment&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;2.1 - init medical appointment data&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;3.0 - security tabels&quot;
+INFO  o.f.core.internal.command.DbMigrate - Migrating schema &quot;public&quot; to version &quot;3.1 - init users&quot;
+INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema &quot;public&quot;, now at version v3.1 (execution time 00:00.087s)
+INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+WARN  org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): org.medical_appointment.infrastructure.database.entity.UserRoleEntityId
+WARN  org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): org.medical_appointment.infrastructure.database.entity.UserRoleEntityId
+INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+DEBUG o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource - Adding web access control expression [permitAll] for any request
+INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4376c32a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a68eeda, org.springframework.security.web.context.SecurityContextHolderFilter@368f3392, org.springframework.security.web.header.HeaderWriterFilter@390b0862, org.springframework.web.filter.CorsFilter@4b2c2934, org.springframework.security.web.authentication.logout.LogoutFilter@5601e212, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@721b5e52, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78740e7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1efc0d01, org.springframework.security.web.access.ExceptionTranslationFilter@563b9bc6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2221e3df]
+INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [&quot;http-nio-auto-1&quot;]
+INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 62036 (http) with context path '/medical-appointment'
+INFO  o.m.integration.LoginControllerIT - Started LoginControllerIT in 5.545 seconds (process running for 31.287)
+INFO  o.a.c.c.C.[.[.[/medical-appointment] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Authorized filter invocation [GET /login] with attributes [permitAll]
+DEBUG o.s.security.web.FilterChainProxy - Secured GET /login
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at 19 lut 2024, 19:38:34</p>
+</div>
+</div>
+</body>
+</html>

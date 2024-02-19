@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.infrastructure.database.repository.jpa.DoctorAvailableJpaRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:22" hostname="DESKTOP-A9LUF2G" time="0.045">
+  <properties/>
+  <testcase name="findByMedicalLicenceWorksCorrectly()" classname="org.medical_appointment.infrastructure.database.repository.jpa.DoctorAvailableJpaRepositoryTest" time="0.021"/>
+  <testcase name="findBySpecializationWorksCorrectly()" classname="org.medical_appointment.infrastructure.database.repository.jpa.DoctorAvailableJpaRepositoryTest" time="0.021"/>
+  <system-out><![CDATA[INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.medical_appointment.infrastructure.database.repository.jpa.DoctorAvailableJpaRepositoryTest]: DoctorAvailableJpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.medical_appointment.MedicalAppointmentApplication for test class org.medical_appointment.infrastructure.database.repository.jpa.DoctorAvailableJpaRepositoryTest
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: insert into doctor_available (completed,date_time,deleted,doctor_id,reserved) values (?,?,?,?,?)
+Hibernate: select dae1_0.doctor_available_id,dae1_0.completed,dae1_0.date_time,dae1_0.deleted,d1_0.doctor_id,d1_0.medical_licence,d1_0.name,d1_0.specialization,d1_0.surname,d1_0.user_id,dae1_0.reserved from doctor_available dae1_0 left join doctor d1_0 on d1_0.doctor_id=dae1_0.doctor_id where d1_0.medical_licence=?
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: insert into doctor_available (completed,date_time,deleted,doctor_id,reserved) values (?,?,?,?,?)
+Hibernate: select dae1_0.doctor_available_id,dae1_0.completed,dae1_0.date_time,dae1_0.deleted,d1_0.doctor_id,d1_0.medical_licence,d1_0.name,d1_0.specialization,d1_0.surname,d1_0.user_id,dae1_0.reserved from doctor_available dae1_0 left join doctor d1_0 on d1_0.doctor_id=dae1_0.doctor_id where d1_0.specialization=? and dae1_0.reserved=false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

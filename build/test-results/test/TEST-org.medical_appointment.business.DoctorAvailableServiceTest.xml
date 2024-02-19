@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.business.DoctorAvailableServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:11" hostname="DESKTOP-A9LUF2G" time="0.163">
+  <properties/>
+  <testcase name="notReservedDoctorAvailableWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.1"/>
+  <testcase name="createDoctorAvailableDateWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.007"/>
+  <testcase name="findByIdWhenDoctorAvailableNotExists()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.006"/>
+  <testcase name="findByIdWhenDoctorAvailableExists()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.006"/>
+  <testcase name="deleteDoctorAvailableDateWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.006"/>
+  <testcase name="findBySpecializationWorkCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.009"/>
+  <testcase name="setAsCompletedDoctorAvailableWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.003"/>
+  <testcase name="reservedDoctorAvailableWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.007"/>
+  <testcase name="makeReservationWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.003"/>
+  <testcase name="cancelReservationWorksCorrectly()" classname="org.medical_appointment.business.DoctorAvailableServiceTest" time="0.006"/>
+  <system-out><![CDATA[INFO  o.m.business.DoctorAvailableService - Not reserved doctor dates: [2]
+INFO  o.m.business.DoctorAvailableService - Saved new doctor available on date: [2024-02-19T19:38:11.717540700+01:00] by doctor [George] [Mich]
+INFO  o.m.business.DoctorAvailableService - Deleted available appointment.
+INFO  o.m.business.DoctorAvailableService - Available doctor dates: [2] for specialization: [Cardiologist]
+INFO  o.m.business.DoctorAvailableService - Doctor available id: [1] is completed now.
+INFO  o.m.business.DoctorAvailableService - Reserved doctor dates: [2]
+INFO  o.m.business.DoctorAvailableService - Doctor available date on [2024-02-19T19:38:11.768083700+01:00] is reserved now.
+INFO  o.m.business.DoctorAvailableService - Doctor available date on [2024-02-19T19:38:11.775081400+01:00] is available now.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

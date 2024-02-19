@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.business.AppointmentServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:11" hostname="DESKTOP-A9LUF2G" time="0.149">
+  <properties/>
+  <testcase name="findAllCompletedAppointmentsByPeselWorksCorrectly()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.115"/>
+  <testcase name="confirmAndAddDetailsForAppointmentWorksCorrectly()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.003"/>
+  <testcase name="findAppointmentByDoctorAvailableIdWhenAppointmentExists()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.003"/>
+  <testcase name="findAllUncompletedAppointmentsByPeselWorksCorrectly()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.004"/>
+  <testcase name="findAppointmentByIdWhenAppointmentNotExists()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.005"/>
+  <testcase name="findAppointmentByIdWhenAppointmentExists()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.003"/>
+  <testcase name="cancelReservationWorksCorrectly()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.004"/>
+  <testcase name="findAppointmentByDoctorAvailableIdWhenAppointmentNotExists()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.003"/>
+  <testcase name="scheduleAppointmentWorksCorrectly()" classname="org.medical_appointment.business.AppointmentServiceTest" time="0.003"/>
+  <system-out><![CDATA[INFO  o.m.business.AppointmentService - Confirmed and added details on appointment [test-number1]
+INFO  o.m.business.AppointmentService - Canceled reservation number [test-number1], date: [2024-02-19T19:38:11.602705900+01:00]
+INFO  o.m.business.AppointmentService - Patient with pesel: [54082873337] reserved an appointment on [2024-02-19T19:38:11.609702200+01:00]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

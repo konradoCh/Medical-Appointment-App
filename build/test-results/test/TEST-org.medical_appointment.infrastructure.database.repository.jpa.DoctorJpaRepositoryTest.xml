@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.infrastructure.database.repository.jpa.DoctorJpaRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:38:22" hostname="DESKTOP-A9LUF2G" time="0.031">
+  <properties/>
+  <testcase name="findAvailableSpecializations()" classname="org.medical_appointment.infrastructure.database.repository.jpa.DoctorJpaRepositoryTest" time="0.015"/>
+  <testcase name="findDoctorByMedicalLicence()" classname="org.medical_appointment.infrastructure.database.repository.jpa.DoctorJpaRepositoryTest" time="0.015"/>
+  <system-out><![CDATA[INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.medical_appointment.infrastructure.database.repository.jpa.DoctorJpaRepositoryTest]: DoctorJpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.medical_appointment.MedicalAppointmentApplication for test class org.medical_appointment.infrastructure.database.repository.jpa.DoctorJpaRepositoryTest
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: select de1_0.specialization from doctor de1_0
+Hibernate: insert into medical_appointment_user (active,email,password,user_name) values (?,?,?,?)
+Hibernate: insert into doctor (medical_licence,name,specialization,surname,user_id) values (?,?,?,?,?)
+Hibernate: select de1_0.doctor_id,de1_0.medical_licence,de1_0.name,de1_0.specialization,de1_0.surname,de1_0.user_id from doctor de1_0 where de1_0.medical_licence=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

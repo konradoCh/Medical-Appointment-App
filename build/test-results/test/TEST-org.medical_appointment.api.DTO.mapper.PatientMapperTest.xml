@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.medical_appointment.api.DTO.mapper.PatientMapperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:37:59" hostname="DESKTOP-A9LUF2G" time="0.004">
+  <properties/>
+  <testcase name="mapToPatientWorksCorrectly()" classname="org.medical_appointment.api.DTO.mapper.PatientMapperTest" time="0.002"/>
+  <testcase name="mapToPatientDTOWorksCorrectly()" classname="org.medical_appointment.api.DTO.mapper.PatientMapperTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
