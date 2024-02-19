@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          crossorigin="anonymous">
+    <title>Patient Portal</title>
+</head>
+
+<body>
+<div class="container">
+    <h2 align="center" style="background-color: lightblue">Hello!</h2>
+    <h3 align="center" style="background-color: lightblue" th:text="${name + ' ' + surname}"></h3>
+</div>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <form action="#"
+                  th:action="@{/patient/upcomingAppointments}"
+                  th:method="GET">
+                <input type="hidden" th:name="pesel" th:value="${pesel}"/>
+                <input type="hidden" th:name="upcomingAppointmentsDTO" th:value="${upcomingAppointmentsDTO}"/>
+                <button type="submit" class="btn btn-info" style="width: 300px; height: 45px;"><b>Upcoming appointments</b>
+                </button>
+            </form>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+            <form action="#"
+                  th:action="@{/patient/reserve}"
+                  th:method="GET">
+                <input type="hidden" th:name="pesel" th:value="${pesel}"/>
+                <button type="submit" class="btn btn-info" style="width: 300px; height: 45px;"><b>Reserve a new appointment</b>
+                </button>
+            </form>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+            <form action="#"
+                  th:action="@{/patient/completedAppointments}"
+                  th:method="GET">
+                <input type="hidden" th:name="pesel" th:value="${pesel}"/>
+                <button type="submit" class="btn btn-info" style="width: 300px; height: 45px;"><b>Completed appointments</b>
+                </button>
+            </form>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+            <form action="#"
+                  th:action="@{/patient/canceledAppointments}"
+                  th:method="GET">
+                <input type="hidden" th:name="pesel" th:value="${pesel}"/>
+                <button type="submit" class="btn btn-info" style="width: 300px; height: 45px;"><b>Canceled appointments</b>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row mt-3 d-flex justify-content-center">
+    <div class="col-sm d-flex justify-content-center">
+        <a th:href="@{/}" class="btn btn-secondary" role="button"><b>Go back to the previous page</b></a>
+    </div>
+</div>
+<br>
+
+<div class="d-flex justify-content-center mt-3">
+    <a th:href="@{/logout}" class="btn btn-secondary" role="button" style="width: 150px;"><b>Logout</b></a>
+</div>
+
+
+</body>
+</html>
+
